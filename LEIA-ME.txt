@@ -1,0 +1,22 @@
+POO LAB — PYTHON EM MOVIMENTO
+
+COMO EXECUTAR
+1. Extraia o arquivo ZIP.
+2. Abra a pasta poo_python_interativo no VS Code.
+3. Abra index.html no navegador (duplo clique) ou use a extensão Live Server.
+4. Clique em AVANÇAR para percorrer as 16 etapas.
+5. Use VOLTAR, o menu lateral ou as setas esquerda/direita do teclado.
+6. Na última etapa, experimente alterar os dias do contrato.
+
+ARQUIVOS
+index.html — estrutura da interface
+style.css — aparência, responsividade e animações
+script.js — 16 etapas, diagramas SVG e simulador de valores
+
+OBSERVAÇÕES
+- Não precisa de Node.js, instalação de pacotes, backend nem internet para a lógica funcionar.
+- A fonte personalizada é opcional e usa Google Fonts; offline, o navegador utiliza fontes locais.
+- O navegador não executa Python. O simulador em JavaScript reproduz as regras do projeto original.
+- Os trechos de código exibidos são excertos dos arquivos enviados; em algumas etapas há recortes e reticências didáticas.
+- A relação ContratoLocacao → Veiculo é tratada como agregação, pois o contrato guarda referências a veículos independentes.
+- No código original, o adicional do ar-condicionado é R$ 20 por reserva, não por dia.
